@@ -62,3 +62,19 @@ Include the following code snippet just before the closing body tag (</body>) in
 </script>
 
 */
+
+body {
+  background-color: white;
+}
+
+#index-header {
+}
+
+#index-main {
+  background-color: #F2F1E8;
+}
+
+#index-photolinks {
+  display: flex;
+  flex-wrap: wrap;
+}

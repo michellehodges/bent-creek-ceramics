@@ -22,28 +22,32 @@
     </header>
   </div>
 
-  <section>
-    <h1>Sign Up for Our Weekly Newsletter</h1>
-      <p>Stay up to date with events, activities, news and specials.</p>
+  <section class="page-wrapper">
+    <div class="newsletter-wrapper">
+    <h1 class="newsletter-heading">Sign Up for Our Weekly Newsletter</h1>
+      <p class="newsletter-events">Stay up to date with events, activities, news and specials.</p>
         <form action="#">
           <div class="name">
             <label for="name-entry">Name</label>
-              <input type="text" name="name-entry" class="entries">
+              <input type="hidden" name="name-entry" class="entries">
           </div>
           <div class="email">
             <label for="email-entry">Email</label>
-              <input type="text" name="email-entry" class="entries">
+              <input type="hidden" name="email-entry" class="entries">
           </div>
           <div class="submit_container">
-              <input type="submit" id="submit_button" value="Submit!">
+              <input type="submit" id="submit_button" value="Submit">
           </div>
         </form>
+    </div>
   </section>
 
 
-  <footer>
-    <h1>Copyright 2017, Bent Creek Ceramics</h1>
-  </footer>
+
+    <footer>
+      <p class="footer">Copyright 2017, Bent Creek Ceramics</p>
+    </footer>
+
 
 
 </body>

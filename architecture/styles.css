@@ -174,20 +174,17 @@ main h1 {
 }
 
 
-section h1 {
-  font-size: 60px;
-  color: white;
-  font-weight: lighter;
-  text-align: center;
-  padding: 200px 0;
-}
-
 .about-stretch-photo {
     background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/background-3.jpg");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 60px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 200px 0;
 }
 
 .photo-caption {
@@ -212,14 +209,63 @@ th, td {
   font-weight: lighter;
 }
 
-.highlighted-cells {
+table tr:nth-child(even) {
   background-color: blanchedalmond;
 }
 
 
 /* NEWSLETTER.HTML HERE */
 
+.page-wrapper {
+  background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/background-2.jpg");
+  width: 100%;
+  background-size: cover;
+  padding: 40px;
+}
 
+.newsletter-wrapper {
+  background-color: white;
+  margin: 50px 400px 50px 350px;
+  padding: 40px 28px;
+  width: 613px;
+}
+
+.newsletter-heading {
+  font-size: 33px;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.newsletter-events {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+#submit_button {
+ background-color: #968772;
+ cursor: pointer;
+ padding: 12px;
+ color: white;
+ font-size: 17px;
+ font-family: 'Roboto', sans-serif;
+ border: none;
+}
+
+input[type=hidden] {
+  width: 100%;
+  padding: 12px;
+  display: none;
+}
 
 /*INDEX.HTML HERE*/
 

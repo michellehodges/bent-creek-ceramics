@@ -69,23 +69,53 @@ body {
   background-color: white;
 }
 
+#index-header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+}
+
 .main-navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  width: 40%;
+  justify-content: space-around;
 }
 
 .main-navigation a {
   text-transform: uppercase;
   font-family: 'Roboto', serif;
-  flex-grow: 1;
+  width: 30%;
   max-width: 100%
-  margin-bottom: 30px;
+  justify-content: space-around;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #967343;
+}
+
+a:active {
+  color: #968772;
+}
+
+div > img {
+  width: 30%;
 }
 
 #logo {
   height: 47px;
+  width: 41px;
+  margin-right: 350px;
+}
+
+.wrapper {
+  background-color: #F2F1E8;
+  margin-top: 0;
 }
 
 #index-main {

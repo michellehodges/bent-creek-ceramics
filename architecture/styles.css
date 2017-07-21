@@ -63,18 +63,64 @@ Include the following code snippet just before the closing body tag (</body>) in
 
 */
 
+/* INDEX.HTML HERE */
+
 body {
   background-color: white;
 }
 
-#index-header {
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-navigation a {
+  text-transform: uppercase;
+  font-family: 'Roboto', serif;
+  flex-grow: 1;
+  max-width: 100%
+  margin-bottom: 30px;
+}
+
+#logo {
+  height: 47px;
 }
 
 #index-main {
   background-color: #F2F1E8;
 }
 
-#index-photolinks {
+.index-photolinks {
+  display: table;
+}
+
+ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
 }
+
+li {
+  margin: 4px;
+}
+
+img {
+  display: block;
+  height: 177px;
+  width: auto;
+}
+
+
+/* ABOUT.HTML HERE */
+
+
+
+
+
+
+
+/* NEWSLETTER.HTML HERE */

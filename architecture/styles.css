@@ -63,7 +63,8 @@ Include the following code snippet just before the closing body tag (</body>) in
 
 */
 
-/* INDEX.HTML HERE */
+
+/*NAVBAR AND FOOTER CONTENT HERE*/
 
 body {
   background-color: white;
@@ -73,6 +74,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #FFFFFF;
+  padding-bottom: 10px;
 }
 
 .main-navigation {
@@ -103,20 +105,124 @@ a:active {
   color: #968772;
 }
 
-div > img {
+.logo-hack {
   width: 30%;
 }
 
 #logo {
   height: 47px;
-  width: 41px;
+  width: 45px;
   margin-right: 350px;
+}
+
+
+.footer {
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+
+/* ABOUT.HTML HERE */
+
+h1, h2, p, blockquote, th, td, li, footer {
+  font-family: 'Merriweather', sans-serif;
 }
 
 .wrapper {
   background-color: #F2F1E8;
-  margin-top: 0;
+  padding: 10px 0px;
 }
+
+main > a:link {
+  color: #968772;
+  /*TODO figure out why this isnt working*/
+}
+
+div > h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+main {
+  padding: 10px 200px;
+  line-height: 200%;
+  font-size: 19px;
+}
+
+#about-photo-1 {
+  float: left;
+  padding: 20px;
+  height: 123px;
+  width: auto;
+}
+
+blockquote {
+  border-left: 2px solid #968772;
+  padding-left: 30px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+main h1 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+section h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.about-stretch-photo {
+    background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/background-3.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-caption {
+  float: right;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 150%;
+  width: 20%;
+  margin-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 79%;
+}
+
+th, td {
+  border: 1px solid black;
+  font-size: 21px;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.highlighted-cells {
+  background-color: blanchedalmond;
+}
+
+
+/* NEWSLETTER.HTML HERE */
+
+
+
+/*INDEX.HTML HERE*/
+
 
 #index-main {
   background-color: #F2F1E8;
@@ -137,20 +243,3 @@ ul {
 li {
   margin: 4px;
 }
-
-img {
-  display: block;
-  height: 177px;
-  width: auto;
-}
-
-
-/* ABOUT.HTML HERE */
-
-
-
-
-
-
-
-/* NEWSLETTER.HTML HERE */

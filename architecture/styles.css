@@ -265,6 +265,7 @@ input[type=hidden] {
   width: 100%;
   padding: 12px;
   display: none;
+
 }
 
 /*INDEX.HTML HERE*/
@@ -290,6 +291,7 @@ input[type=hidden] {
   display: flex;
   color: white;
   flex-wrap: wrap;
+  width: 1210px;
 }
 
 /*ul {
@@ -310,8 +312,8 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   height: 368px;
-  width: 690px;
-  margin: 10px 10px 10px -175px;
+  width: 728px;
+  margin: 5px;
 
 }
 
@@ -322,7 +324,7 @@ li {
   background-repeat: no-repeat;
   height: 368px;
   width: 225px;
-  margin: 10px;
+  margin: 5px;
 }
 .textures {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-3.jpg");
@@ -331,41 +333,41 @@ li {
   background-repeat: no-repeat;
   height: 368px;
   width: 225px;
-  margin: 10px;
+  margin: 5px;
 }
 .tea-time {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 368px;
-  width: 728px;
-  margin: 10px;
+  height: 237px;
+  width: 230px;
+  margin: 5px;
 }
 .jars-containers {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 368px;
-  width: 728px;
-  margin: 10px;
+  height: 237px;
+  width: 480px;
+  margin: 5px;
 }
 .wasabi-saki {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-6.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 368px;
-  width: 728px;
-  margin: 10px;
+  height: 237px;
+  width: 230px;
+  margin: 5px;
 }
 .sip-sunshine {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-7.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 368px;
-  width: 728px;
-  margin: 10px;
+  height: 237px;
+  width: 230px;
+  margin: 5px;
 }

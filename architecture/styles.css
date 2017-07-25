@@ -149,7 +149,7 @@ div > h1 {
 }
 
 main {
-  padding: 10px 200px;
+  padding: 10px 20px;
   line-height: 200%;
   font-size: 19px;
 }
@@ -218,7 +218,6 @@ table tr:nth-child(even) {
 
 .page-wrapper {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/background-2.jpg");
-  width: 100%;
   background-size: cover;
   padding: 40px;
 }
@@ -231,7 +230,7 @@ table tr:nth-child(even) {
 }
 
 .newsletter-heading {
-  font-size: 33px;
+  font-size: 30px;
   font-weight: lighter;
   text-align: center;
 
@@ -254,19 +253,29 @@ label {
 #submit_button {
  background-color: #968772;
  cursor: pointer;
- padding: 12px;
+ padding: 15px 40px;
  color: white;
- font-size: 17px;
+ font-size: 1.25em;
  font-family: 'Roboto', sans-serif;
  border: none;
 }
 
-input[type=hidden] {
-  width: 100%;
-  padding: 12px;
-  display: none;
-
+.entries {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #666633;
+  margin-bottom: 25px;
+  font-size: 1.20em;
 }
+
+.submit_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
 
 /*INDEX.HTML HERE*/
 
@@ -291,7 +300,8 @@ input[type=hidden] {
   display: flex;
   color: white;
   flex-wrap: wrap;
-  width: 1210px;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 /*ul {
@@ -312,8 +322,11 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   height: 368px;
-  width: 728px;
+  width: 778px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
 
 }
 
@@ -325,6 +338,10 @@ li {
   height: 368px;
   width: 225px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
+
 }
 .textures {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-3.jpg");
@@ -334,6 +351,9 @@ li {
   height: 368px;
   width: 225px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
 }
 .tea-time {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-4.jpg");
@@ -343,6 +363,9 @@ li {
   height: 237px;
   width: 230px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
 }
 .jars-containers {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-5.jpg");
@@ -350,8 +373,11 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   height: 237px;
-  width: 480px;
+  width: 230px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
 }
 .wasabi-saki {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-6.jpg");
@@ -359,8 +385,11 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   height: 237px;
-  width: 230px;
+  width: 496px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
 }
 .sip-sunshine {
   background-image: url("/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-7.jpg");
@@ -368,6 +397,9 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   height: 237px;
-  width: 230px;
+  width: 225px;
   margin: 5px;
+  text-align: left;
+  font-size: 1em;
+  padding: 0.5em 1em;
 }

@@ -58,49 +58,6 @@
       </div>
 
 
-      <!-- <ul>
-        <li>
-          <a href="#">
-          <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-1.jpg">
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-2.jpg">
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-3.jpg">
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-4.jpg">
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-5.jpg">
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-6.jpg">
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <img src="/Users/mischy/Desktop/the-iron-yard/weekly projects/week-one-project/images/product-7.jpg">
-          </a>
-        </li>
-      </ul> -->
     </section>
   </main>
 
@@ -109,7 +66,22 @@
       <p class="footer">Copyright 2017, Bent Creek Ceramics</p>
     </footer>
 
-
+    <script type="text/javascript">
+      var nameInput = document.getElementById('nameInput');
+      var emailInput = document.getElementById('emailInput');
+      var signupButton = document.getElementById('signupButton');
+      signupButton.addEventListener('click', function(e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+          alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+          nameInput.value = "";
+          emailInput.value = "";
+        } else {
+          alert('We would love for you to sign up, please provide both your name and email address.');
+        }
+      });
+    </script>
 
 </body>
 
